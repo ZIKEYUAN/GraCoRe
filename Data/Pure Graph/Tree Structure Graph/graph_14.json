@@ -1,0 +1,8812 @@
+[
+ {
+  "nodes": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "edges": [
+   {
+    "source": 0,
+    "target": 11,
+    "attributes": 2
+   },
+   {
+    "source": 0,
+    "target": 2,
+    "attributes": 3
+   },
+   {
+    "source": 1,
+    "target": 12,
+    "attributes": 2
+   },
+   {
+    "source": 2,
+    "target": 5,
+    "attributes": 4
+   },
+   {
+    "source": 3,
+    "target": 7,
+    "attributes": 5
+   },
+   {
+    "source": 3,
+    "target": 5,
+    "attributes": 4
+   },
+   {
+    "source": 3,
+    "target": 9,
+    "attributes": 5
+   },
+   {
+    "source": 4,
+    "target": 12,
+    "attributes": 2
+   },
+   {
+    "source": 4,
+    "target": 13,
+    "attributes": 1
+   },
+   {
+    "source": 5,
+    "target": 8,
+    "attributes": 1
+   },
+   {
+    "source": 6,
+    "target": 10,
+    "attributes": 3
+   },
+   {
+    "source": 6,
+    "target": 11,
+    "attributes": 2
+   },
+   {
+    "source": 8,
+    "target": 9,
+    "attributes": 5
+   },
+   {
+    "source": 8,
+    "target": 12,
+    "attributes": 4
+   }
+  ],
+  "params": [],
+  "node_count": 14,
+  "edge_count": 14,
+  "is_directed": false,
+  "is_tree": false,
+  "is_connected": true,
+  "components": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  ],
+  "graph_name": "Tree Structure Graph",
+  "average_degree": 2.0,
+  "diameter": 9,
+  "radius": 5,
+  "adjacency_matrix": [
+   [
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+   ],
+   [
+    3,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    5,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1
+   ],
+   [
+    0,
+    0,
+    4,
+    4,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    2,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    4,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    2,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "graph_description": "This is a undirected graph with the following edges:\nFrom node 0 to node 11, distance is 2\nFrom node 0 to node 2, distance is 3\nFrom node 1 to node 12, distance is 2\nFrom node 2 to node 5, distance is 4\nFrom node 3 to node 7, distance is 5\nFrom node 3 to node 5, distance is 4\nFrom node 3 to node 9, distance is 5\nFrom node 4 to node 12, distance is 2\nFrom node 4 to node 13, distance is 1\nFrom node 5 to node 8, distance is 1\nFrom node 6 to node 10, distance is 3\nFrom node 6 to node 11, distance is 2\nFrom node 8 to node 9, distance is 5\nFrom node 8 to node 12, distance is 4",
+  "random_graph_description": "This is a undirected graph with the following edges:\nFrom node 3 to node 7, distance is 5\nFrom node 4 to node 13, distance is 1\nFrom node 1 to node 12, distance is 2\nFrom node 3 to node 9, distance is 5\nFrom node 2 to node 5, distance is 4\nFrom node 8 to node 12, distance is 4\nFrom node 6 to node 11, distance is 2\nFrom node 3 to node 5, distance is 4\nFrom node 8 to node 9, distance is 5\nFrom node 5 to node 8, distance is 1\nFrom node 0 to node 2, distance is 3\nFrom node 4 to node 12, distance is 2\nFrom node 6 to node 10, distance is 3\nFrom node 0 to node 11, distance is 2",
+  "hamiltonian_cycle": null,
+  "euler_cycle": false,
+  "QA": {
+   "structure_qa": [
+    {
+     "node_number": {
+      "Q": "How many nodes in this graph?",
+      "A": 14
+     },
+     "average_degree": {
+      "Q": "What's the average degree of this graph?",
+      "A": 2.0
+     },
+     "is_connected": {
+      "Q": "Is this graph a connected graph?",
+      "A": "Yes"
+     },
+     "similarity": {
+      "Q": "What are the triplets in this graph? ",
+      "A": [
+       [
+        0,
+        11,
+        2
+       ],
+       [
+        0,
+        2,
+        3
+       ],
+       [
+        1,
+        12,
+        2
+       ],
+       [
+        2,
+        5,
+        4
+       ],
+       [
+        3,
+        7,
+        5
+       ],
+       [
+        3,
+        5,
+        4
+       ],
+       [
+        3,
+        9,
+        5
+       ],
+       [
+        4,
+        12,
+        2
+       ],
+       [
+        4,
+        13,
+        1
+       ],
+       [
+        5,
+        8,
+        1
+       ],
+       [
+        6,
+        10,
+        3
+       ],
+       [
+        6,
+        11,
+        2
+       ],
+       [
+        8,
+        9,
+        5
+       ],
+       [
+        8,
+        12,
+        4
+       ]
+      ]
+     }
+    }
+   ],
+   "specail_qa": {
+    "Q": "A tree is an undirected graph in which any two vertices are connected by exactly one path, and there are no cycles. Based on the following description, determine if the given graph is a tree.",
+    "A": "No, it is not a tree."
+   }
+  }
+ },
+ {
+  "nodes": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "edges": [
+   {
+    "source": 0,
+    "target": 4,
+    "attributes": 1
+   },
+   {
+    "source": 0,
+    "target": 11,
+    "attributes": 4
+   },
+   {
+    "source": 0,
+    "target": 12,
+    "attributes": 4
+   },
+   {
+    "source": 0,
+    "target": 1,
+    "attributes": 4
+   },
+   {
+    "source": 1,
+    "target": 6,
+    "attributes": 1
+   },
+   {
+    "source": 1,
+    "target": 8,
+    "attributes": 5
+   },
+   {
+    "source": 1,
+    "target": 9,
+    "attributes": 4
+   },
+   {
+    "source": 2,
+    "target": 4,
+    "attributes": 4
+   },
+   {
+    "source": 3,
+    "target": 5,
+    "attributes": 3
+   },
+   {
+    "source": 3,
+    "target": 4,
+    "attributes": 3
+   },
+   {
+    "source": 5,
+    "target": 11,
+    "attributes": 4
+   },
+   {
+    "source": 7,
+    "target": 9,
+    "attributes": 2
+   },
+   {
+    "source": 7,
+    "target": 13,
+    "attributes": 5
+   },
+   {
+    "source": 9,
+    "target": 10,
+    "attributes": 1
+   }
+  ],
+  "params": [],
+  "node_count": 14,
+  "edge_count": 14,
+  "is_directed": false,
+  "is_tree": false,
+  "is_connected": true,
+  "components": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  ],
+  "graph_name": "Tree Structure Graph",
+  "average_degree": 2.0,
+  "diameter": 6,
+  "radius": 3,
+  "adjacency_matrix": [
+   [
+    0,
+    4,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    4,
+    0
+   ],
+   [
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    5,
+    4,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    3,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    4,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    5
+   ],
+   [
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    4,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "graph_description": "This is a undirected graph with the following edges:\nFrom node 0 to node 4, distance is 1\nFrom node 0 to node 11, distance is 4\nFrom node 0 to node 12, distance is 4\nFrom node 0 to node 1, distance is 4\nFrom node 1 to node 6, distance is 1\nFrom node 1 to node 8, distance is 5\nFrom node 1 to node 9, distance is 4\nFrom node 2 to node 4, distance is 4\nFrom node 3 to node 5, distance is 3\nFrom node 3 to node 4, distance is 3\nFrom node 5 to node 11, distance is 4\nFrom node 7 to node 9, distance is 2\nFrom node 7 to node 13, distance is 5\nFrom node 9 to node 10, distance is 1",
+  "random_graph_description": "This is a undirected graph with the following edges:\nFrom node 1 to node 8, distance is 5\nFrom node 0 to node 1, distance is 4\nFrom node 1 to node 9, distance is 4\nFrom node 5 to node 11, distance is 4\nFrom node 0 to node 12, distance is 4\nFrom node 3 to node 4, distance is 3\nFrom node 7 to node 13, distance is 5\nFrom node 1 to node 6, distance is 1\nFrom node 7 to node 9, distance is 2\nFrom node 0 to node 11, distance is 4\nFrom node 0 to node 4, distance is 1\nFrom node 3 to node 5, distance is 3\nFrom node 9 to node 10, distance is 1\nFrom node 2 to node 4, distance is 4",
+  "hamiltonian_cycle": null,
+  "euler_cycle": false,
+  "QA": {
+   "structure_qa": [
+    {
+     "node_number": {
+      "Q": "How many nodes in this graph?",
+      "A": 14
+     },
+     "average_degree": {
+      "Q": "What's the average degree of this graph?",
+      "A": 2.0
+     },
+     "is_connected": {
+      "Q": "Is this graph a connected graph?",
+      "A": "Yes"
+     },
+     "similarity": {
+      "Q": "What are the triplets in this graph? ",
+      "A": [
+       [
+        0,
+        4,
+        1
+       ],
+       [
+        0,
+        11,
+        4
+       ],
+       [
+        0,
+        12,
+        4
+       ],
+       [
+        0,
+        1,
+        4
+       ],
+       [
+        1,
+        6,
+        1
+       ],
+       [
+        1,
+        8,
+        5
+       ],
+       [
+        1,
+        9,
+        4
+       ],
+       [
+        2,
+        4,
+        4
+       ],
+       [
+        3,
+        5,
+        3
+       ],
+       [
+        3,
+        4,
+        3
+       ],
+       [
+        5,
+        11,
+        4
+       ],
+       [
+        7,
+        9,
+        2
+       ],
+       [
+        7,
+        13,
+        5
+       ],
+       [
+        9,
+        10,
+        1
+       ]
+      ]
+     }
+    }
+   ],
+   "specail_qa": {
+    "Q": "A tree is an undirected graph in which any two vertices are connected by exactly one path, and there are no cycles. Based on the following description, determine if the given graph is a tree.",
+    "A": "No, it is not a tree."
+   }
+  }
+ },
+ {
+  "nodes": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "edges": [
+   {
+    "source": 0,
+    "target": 13,
+    "attributes": 3
+   },
+   {
+    "source": 1,
+    "target": 9,
+    "attributes": 1
+   },
+   {
+    "source": 1,
+    "target": 13,
+    "attributes": 4
+   },
+   {
+    "source": 2,
+    "target": 6,
+    "attributes": 2
+   },
+   {
+    "source": 2,
+    "target": 10,
+    "attributes": 1
+   },
+   {
+    "source": 2,
+    "target": 12,
+    "attributes": 2
+   },
+   {
+    "source": 3,
+    "target": 8,
+    "attributes": 2
+   },
+   {
+    "source": 4,
+    "target": 13,
+    "attributes": 3
+   },
+   {
+    "source": 5,
+    "target": 13,
+    "attributes": 5
+   },
+   {
+    "source": 7,
+    "target": 12,
+    "attributes": 1
+   },
+   {
+    "source": 7,
+    "target": 9,
+    "attributes": 4
+   },
+   {
+    "source": 8,
+    "target": 9,
+    "attributes": 3
+   },
+   {
+    "source": 11,
+    "target": 12,
+    "attributes": 4
+   }
+  ],
+  "params": [],
+  "node_count": 14,
+  "edge_count": 13,
+  "is_directed": false,
+  "is_tree": true,
+  "is_connected": true,
+  "components": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  ],
+  "graph_name": "Tree Structure Graph",
+  "average_degree": 1.8571428571428572,
+  "diameter": 7,
+  "radius": 4,
+  "adjacency_matrix": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    4
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5
+   ],
+   [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0
+   ],
+   [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0
+   ],
+   [
+    3,
+    4,
+    0,
+    0,
+    3,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "graph_description": "This is a undirected graph with the following edges:\nFrom node 0 to node 13, distance is 3\nFrom node 1 to node 9, distance is 1\nFrom node 1 to node 13, distance is 4\nFrom node 2 to node 6, distance is 2\nFrom node 2 to node 10, distance is 1\nFrom node 2 to node 12, distance is 2\nFrom node 3 to node 8, distance is 2\nFrom node 4 to node 13, distance is 3\nFrom node 5 to node 13, distance is 5\nFrom node 7 to node 12, distance is 1\nFrom node 7 to node 9, distance is 4\nFrom node 8 to node 9, distance is 3\nFrom node 11 to node 12, distance is 4",
+  "random_graph_description": "This is a undirected graph with the following edges:\nFrom node 5 to node 13, distance is 5\nFrom node 8 to node 9, distance is 3\nFrom node 2 to node 10, distance is 1\nFrom node 4 to node 13, distance is 3\nFrom node 3 to node 8, distance is 2\nFrom node 2 to node 6, distance is 2\nFrom node 2 to node 12, distance is 2\nFrom node 1 to node 9, distance is 1\nFrom node 11 to node 12, distance is 4\nFrom node 1 to node 13, distance is 4\nFrom node 0 to node 13, distance is 3\nFrom node 7 to node 12, distance is 1\nFrom node 7 to node 9, distance is 4",
+  "hamiltonian_cycle": null,
+  "euler_cycle": false,
+  "QA": {
+   "structure_qa": [
+    {
+     "node_number": {
+      "Q": "How many nodes in this graph?",
+      "A": 14
+     },
+     "average_degree": {
+      "Q": "What's the average degree of this graph?",
+      "A": 1.8571428571428572
+     },
+     "is_connected": {
+      "Q": "Is this graph a connected graph?",
+      "A": "Yes"
+     },
+     "similarity": {
+      "Q": "What are the triplets in this graph? ",
+      "A": [
+       [
+        0,
+        13,
+        3
+       ],
+       [
+        1,
+        9,
+        1
+       ],
+       [
+        1,
+        13,
+        4
+       ],
+       [
+        2,
+        6,
+        2
+       ],
+       [
+        2,
+        10,
+        1
+       ],
+       [
+        2,
+        12,
+        2
+       ],
+       [
+        3,
+        8,
+        2
+       ],
+       [
+        4,
+        13,
+        3
+       ],
+       [
+        5,
+        13,
+        5
+       ],
+       [
+        7,
+        12,
+        1
+       ],
+       [
+        7,
+        9,
+        4
+       ],
+       [
+        8,
+        9,
+        3
+       ],
+       [
+        11,
+        12,
+        4
+       ]
+      ]
+     }
+    }
+   ],
+   "specail_qa": {
+    "Q": "A tree is an undirected graph in which any two vertices are connected by exactly one path, and there are no cycles. Based on the following description, determine if the given graph is a tree.",
+    "A": "Yes, it is a tree."
+   }
+  }
+ },
+ {
+  "nodes": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "edges": [
+   {
+    "source": 0,
+    "target": 1,
+    "attributes": 5
+   },
+   {
+    "source": 1,
+    "target": 9,
+    "attributes": 4
+   },
+   {
+    "source": 1,
+    "target": 12,
+    "attributes": 4
+   },
+   {
+    "source": 1,
+    "target": 10,
+    "attributes": 1
+   },
+   {
+    "source": 2,
+    "target": 7,
+    "attributes": 3
+   },
+   {
+    "source": 3,
+    "target": 5,
+    "attributes": 4
+   },
+   {
+    "source": 3,
+    "target": 7,
+    "attributes": 2
+   },
+   {
+    "source": 3,
+    "target": 4,
+    "attributes": 3
+   },
+   {
+    "source": 4,
+    "target": 6,
+    "attributes": 5
+   },
+   {
+    "source": 4,
+    "target": 11,
+    "attributes": 3
+   },
+   {
+    "source": 4,
+    "target": 10,
+    "attributes": 2
+   },
+   {
+    "source": 4,
+    "target": 8,
+    "attributes": 1
+   },
+   {
+    "source": 8,
+    "target": 13,
+    "attributes": 1
+   }
+  ],
+  "params": [],
+  "node_count": 14,
+  "edge_count": 13,
+  "is_directed": false,
+  "is_tree": true,
+  "is_connected": true,
+  "components": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  ],
+  "graph_name": "Tree Structure Graph",
+  "average_degree": 1.8571428571428572,
+  "diameter": 6,
+  "radius": 3,
+  "adjacency_matrix": [
+   [
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    1,
+    0,
+    4,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    3,
+    4,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    5,
+    0,
+    1,
+    0,
+    2,
+    3,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    3,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "graph_description": "This is a undirected graph with the following edges:\nFrom node 0 to node 1, distance is 5\nFrom node 1 to node 9, distance is 4\nFrom node 1 to node 12, distance is 4\nFrom node 1 to node 10, distance is 1\nFrom node 2 to node 7, distance is 3\nFrom node 3 to node 5, distance is 4\nFrom node 3 to node 7, distance is 2\nFrom node 3 to node 4, distance is 3\nFrom node 4 to node 6, distance is 5\nFrom node 4 to node 11, distance is 3\nFrom node 4 to node 10, distance is 2\nFrom node 4 to node 8, distance is 1\nFrom node 8 to node 13, distance is 1",
+  "random_graph_description": "This is a undirected graph with the following edges:\nFrom node 8 to node 13, distance is 1\nFrom node 2 to node 7, distance is 3\nFrom node 4 to node 8, distance is 1\nFrom node 1 to node 10, distance is 1\nFrom node 4 to node 10, distance is 2\nFrom node 3 to node 4, distance is 3\nFrom node 4 to node 11, distance is 3\nFrom node 1 to node 12, distance is 4\nFrom node 3 to node 5, distance is 4\nFrom node 3 to node 7, distance is 2\nFrom node 4 to node 6, distance is 5\nFrom node 0 to node 1, distance is 5\nFrom node 1 to node 9, distance is 4",
+  "hamiltonian_cycle": null,
+  "euler_cycle": false,
+  "QA": {
+   "structure_qa": [
+    {
+     "node_number": {
+      "Q": "How many nodes in this graph?",
+      "A": 14
+     },
+     "average_degree": {
+      "Q": "What's the average degree of this graph?",
+      "A": 1.8571428571428572
+     },
+     "is_connected": {
+      "Q": "Is this graph a connected graph?",
+      "A": "Yes"
+     },
+     "similarity": {
+      "Q": "What are the triplets in this graph? ",
+      "A": [
+       [
+        0,
+        1,
+        5
+       ],
+       [
+        1,
+        9,
+        4
+       ],
+       [
+        1,
+        12,
+        4
+       ],
+       [
+        1,
+        10,
+        1
+       ],
+       [
+        2,
+        7,
+        3
+       ],
+       [
+        3,
+        5,
+        4
+       ],
+       [
+        3,
+        7,
+        2
+       ],
+       [
+        3,
+        4,
+        3
+       ],
+       [
+        4,
+        6,
+        5
+       ],
+       [
+        4,
+        11,
+        3
+       ],
+       [
+        4,
+        10,
+        2
+       ],
+       [
+        4,
+        8,
+        1
+       ],
+       [
+        8,
+        13,
+        1
+       ]
+      ]
+     }
+    }
+   ],
+   "specail_qa": {
+    "Q": "A tree is an undirected graph in which any two vertices are connected by exactly one path, and there are no cycles. Based on the following description, determine if the given graph is a tree.",
+    "A": "Yes, it is a tree."
+   }
+  }
+ },
+ {
+  "nodes": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "edges": [
+   {
+    "source": 0,
+    "target": 1,
+    "attributes": 1
+   },
+   {
+    "source": 1,
+    "target": 11,
+    "attributes": 3
+   },
+   {
+    "source": 2,
+    "target": 12,
+    "attributes": 3
+   },
+   {
+    "source": 2,
+    "target": 4,
+    "attributes": 5
+   },
+   {
+    "source": 3,
+    "target": 7,
+    "attributes": 4
+   },
+   {
+    "source": 3,
+    "target": 8,
+    "attributes": 1
+   },
+   {
+    "source": 4,
+    "target": 9,
+    "attributes": 3
+   },
+   {
+    "source": 5,
+    "target": 8,
+    "attributes": 4
+   },
+   {
+    "source": 5,
+    "target": 11,
+    "attributes": 3
+   },
+   {
+    "source": 6,
+    "target": 9,
+    "attributes": 3
+   },
+   {
+    "source": 8,
+    "target": 9,
+    "attributes": 3
+   },
+   {
+    "source": 10,
+    "target": 11,
+    "attributes": 1
+   },
+   {
+    "source": 10,
+    "target": 12,
+    "attributes": 4
+   },
+   {
+    "source": 11,
+    "target": 13,
+    "attributes": 3
+   }
+  ],
+  "params": [],
+  "node_count": 14,
+  "edge_count": 14,
+  "is_directed": false,
+  "is_tree": false,
+  "is_connected": true,
+  "components": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  ],
+  "graph_name": "Tree Structure Graph",
+  "average_degree": 2.0,
+  "diameter": 6,
+  "radius": 4,
+  "adjacency_matrix": [
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    3,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    4,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    3,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    4,
+    0
+   ],
+   [
+    0,
+    3,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    3
+   ],
+   [
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0
+   ]
+  ],
+  "graph_description": "This is a undirected graph with the following edges:\nFrom node 0 to node 1, distance is 1\nFrom node 1 to node 11, distance is 3\nFrom node 2 to node 12, distance is 3\nFrom node 2 to node 4, distance is 5\nFrom node 3 to node 7, distance is 4\nFrom node 3 to node 8, distance is 1\nFrom node 4 to node 9, distance is 3\nFrom node 5 to node 8, distance is 4\nFrom node 5 to node 11, distance is 3\nFrom node 6 to node 9, distance is 3\nFrom node 8 to node 9, distance is 3\nFrom node 10 to node 11, distance is 1\nFrom node 10 to node 12, distance is 4\nFrom node 11 to node 13, distance is 3",
+  "random_graph_description": "This is a undirected graph with the following edges:\nFrom node 3 to node 7, distance is 4\nFrom node 11 to node 13, distance is 3\nFrom node 0 to node 1, distance is 1\nFrom node 3 to node 8, distance is 1\nFrom node 10 to node 12, distance is 4\nFrom node 1 to node 11, distance is 3\nFrom node 2 to node 4, distance is 5\nFrom node 4 to node 9, distance is 3\nFrom node 5 to node 11, distance is 3\nFrom node 5 to node 8, distance is 4\nFrom node 10 to node 11, distance is 1\nFrom node 8 to node 9, distance is 3\nFrom node 2 to node 12, distance is 3\nFrom node 6 to node 9, distance is 3",
+  "hamiltonian_cycle": null,
+  "euler_cycle": false,
+  "QA": {
+   "structure_qa": [
+    {
+     "node_number": {
+      "Q": "How many nodes in this graph?",
+      "A": 14
+     },
+     "average_degree": {
+      "Q": "What's the average degree of this graph?",
+      "A": 2.0
+     },
+     "is_connected": {
+      "Q": "Is this graph a connected graph?",
+      "A": "Yes"
+     },
+     "similarity": {
+      "Q": "What are the triplets in this graph? ",
+      "A": [
+       [
+        0,
+        1,
+        1
+       ],
+       [
+        1,
+        11,
+        3
+       ],
+       [
+        2,
+        12,
+        3
+       ],
+       [
+        2,
+        4,
+        5
+       ],
+       [
+        3,
+        7,
+        4
+       ],
+       [
+        3,
+        8,
+        1
+       ],
+       [
+        4,
+        9,
+        3
+       ],
+       [
+        5,
+        8,
+        4
+       ],
+       [
+        5,
+        11,
+        3
+       ],
+       [
+        6,
+        9,
+        3
+       ],
+       [
+        8,
+        9,
+        3
+       ],
+       [
+        10,
+        11,
+        1
+       ],
+       [
+        10,
+        12,
+        4
+       ],
+       [
+        11,
+        13,
+        3
+       ]
+      ]
+     }
+    }
+   ],
+   "specail_qa": {
+    "Q": "A tree is an undirected graph in which any two vertices are connected by exactly one path, and there are no cycles. Based on the following description, determine if the given graph is a tree.",
+    "A": "No, it is not a tree."
+   }
+  }
+ },
+ {
+  "nodes": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "edges": [
+   {
+    "source": 0,
+    "target": 3,
+    "attributes": 4
+   },
+   {
+    "source": 1,
+    "target": 6,
+    "attributes": 3
+   },
+   {
+    "source": 2,
+    "target": 5,
+    "attributes": 4
+   },
+   {
+    "source": 2,
+    "target": 13,
+    "attributes": 4
+   },
+   {
+    "source": 3,
+    "target": 4,
+    "attributes": 3
+   },
+   {
+    "source": 4,
+    "target": 6,
+    "attributes": 5
+   },
+   {
+    "source": 4,
+    "target": 7,
+    "attributes": 2
+   },
+   {
+    "source": 4,
+    "target": 11,
+    "attributes": 2
+   },
+   {
+    "source": 5,
+    "target": 8,
+    "attributes": 1
+   },
+   {
+    "source": 8,
+    "target": 9,
+    "attributes": 5
+   },
+   {
+    "source": 9,
+    "target": 10,
+    "attributes": 2
+   },
+   {
+    "source": 11,
+    "target": 12,
+    "attributes": 3
+   },
+   {
+    "source": 11,
+    "target": 13,
+    "attributes": 4
+   }
+  ],
+  "params": [],
+  "node_count": 14,
+  "edge_count": 13,
+  "is_directed": false,
+  "is_tree": true,
+  "is_connected": true,
+  "components": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  ],
+  "graph_name": "Tree Structure Graph",
+  "average_degree": 1.8571428571428572,
+  "diameter": 9,
+  "radius": 5,
+  "adjacency_matrix": [
+   [
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4
+   ],
+   [
+    4,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    5,
+    2,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    3,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    2,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    4
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0
+   ]
+  ],
+  "graph_description": "This is a undirected graph with the following edges:\nFrom node 0 to node 3, distance is 4\nFrom node 1 to node 6, distance is 3\nFrom node 2 to node 5, distance is 4\nFrom node 2 to node 13, distance is 4\nFrom node 3 to node 4, distance is 3\nFrom node 4 to node 6, distance is 5\nFrom node 4 to node 7, distance is 2\nFrom node 4 to node 11, distance is 2\nFrom node 5 to node 8, distance is 1\nFrom node 8 to node 9, distance is 5\nFrom node 9 to node 10, distance is 2\nFrom node 11 to node 12, distance is 3\nFrom node 11 to node 13, distance is 4",
+  "random_graph_description": "This is a undirected graph with the following edges:\nFrom node 4 to node 11, distance is 2\nFrom node 0 to node 3, distance is 4\nFrom node 9 to node 10, distance is 2\nFrom node 1 to node 6, distance is 3\nFrom node 4 to node 7, distance is 2\nFrom node 5 to node 8, distance is 1\nFrom node 11 to node 13, distance is 4\nFrom node 4 to node 6, distance is 5\nFrom node 3 to node 4, distance is 3\nFrom node 8 to node 9, distance is 5\nFrom node 2 to node 13, distance is 4\nFrom node 11 to node 12, distance is 3\nFrom node 2 to node 5, distance is 4",
+  "hamiltonian_cycle": null,
+  "euler_cycle": false,
+  "QA": {
+   "structure_qa": [
+    {
+     "node_number": {
+      "Q": "How many nodes in this graph?",
+      "A": 14
+     },
+     "average_degree": {
+      "Q": "What's the average degree of this graph?",
+      "A": 1.8571428571428572
+     },
+     "is_connected": {
+      "Q": "Is this graph a connected graph?",
+      "A": "Yes"
+     },
+     "similarity": {
+      "Q": "What are the triplets in this graph? ",
+      "A": [
+       [
+        0,
+        3,
+        4
+       ],
+       [
+        1,
+        6,
+        3
+       ],
+       [
+        2,
+        5,
+        4
+       ],
+       [
+        2,
+        13,
+        4
+       ],
+       [
+        3,
+        4,
+        3
+       ],
+       [
+        4,
+        6,
+        5
+       ],
+       [
+        4,
+        7,
+        2
+       ],
+       [
+        4,
+        11,
+        2
+       ],
+       [
+        5,
+        8,
+        1
+       ],
+       [
+        8,
+        9,
+        5
+       ],
+       [
+        9,
+        10,
+        2
+       ],
+       [
+        11,
+        12,
+        3
+       ],
+       [
+        11,
+        13,
+        4
+       ]
+      ]
+     }
+    }
+   ],
+   "specail_qa": {
+    "Q": "A tree is an undirected graph in which any two vertices are connected by exactly one path, and there are no cycles. Based on the following description, determine if the given graph is a tree.",
+    "A": "Yes, it is a tree."
+   }
+  }
+ },
+ {
+  "nodes": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "edges": [
+   {
+    "source": 0,
+    "target": 9,
+    "attributes": 1
+   },
+   {
+    "source": 0,
+    "target": 12,
+    "attributes": 3
+   },
+   {
+    "source": 0,
+    "target": 2,
+    "attributes": 3
+   },
+   {
+    "source": 1,
+    "target": 6,
+    "attributes": 3
+   },
+   {
+    "source": 2,
+    "target": 4,
+    "attributes": 3
+   },
+   {
+    "source": 2,
+    "target": 6,
+    "attributes": 3
+   },
+   {
+    "source": 2,
+    "target": 13,
+    "attributes": 3
+   },
+   {
+    "source": 3,
+    "target": 5,
+    "attributes": 2
+   },
+   {
+    "source": 3,
+    "target": 10,
+    "attributes": 5
+   },
+   {
+    "source": 3,
+    "target": 6,
+    "attributes": 2
+   },
+   {
+    "source": 6,
+    "target": 11,
+    "attributes": 2
+   },
+   {
+    "source": 7,
+    "target": 10,
+    "attributes": 2
+   },
+   {
+    "source": 8,
+    "target": 10,
+    "attributes": 2
+   },
+   {
+    "source": 10,
+    "target": 11,
+    "attributes": 5
+   }
+  ],
+  "params": [],
+  "node_count": 14,
+  "edge_count": 14,
+  "is_directed": false,
+  "is_tree": false,
+  "is_connected": true,
+  "components": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  ],
+  "graph_name": "Tree Structure Graph",
+  "average_degree": 2.0,
+  "diameter": 6,
+  "radius": 3,
+  "adjacency_matrix": [
+   [
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    3,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    3,
+    0,
+    0,
+    0,
+    3,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    3,
+    3,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    2,
+    2,
+    0,
+    0,
+    5,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0
+   ],
+   [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "graph_description": "This is a undirected graph with the following edges:\nFrom node 0 to node 9, distance is 1\nFrom node 0 to node 12, distance is 3\nFrom node 0 to node 2, distance is 3\nFrom node 1 to node 6, distance is 3\nFrom node 2 to node 4, distance is 3\nFrom node 2 to node 6, distance is 3\nFrom node 2 to node 13, distance is 3\nFrom node 3 to node 5, distance is 2\nFrom node 3 to node 10, distance is 5\nFrom node 3 to node 6, distance is 2\nFrom node 6 to node 11, distance is 2\nFrom node 7 to node 10, distance is 2\nFrom node 8 to node 10, distance is 2\nFrom node 10 to node 11, distance is 5",
+  "random_graph_description": "This is a undirected graph with the following edges:\nFrom node 3 to node 5, distance is 2\nFrom node 0 to node 2, distance is 3\nFrom node 3 to node 10, distance is 5\nFrom node 0 to node 9, distance is 1\nFrom node 2 to node 13, distance is 3\nFrom node 2 to node 4, distance is 3\nFrom node 7 to node 10, distance is 2\nFrom node 3 to node 6, distance is 2\nFrom node 2 to node 6, distance is 3\nFrom node 0 to node 12, distance is 3\nFrom node 1 to node 6, distance is 3\nFrom node 10 to node 11, distance is 5\nFrom node 6 to node 11, distance is 2\nFrom node 8 to node 10, distance is 2",
+  "hamiltonian_cycle": null,
+  "euler_cycle": false,
+  "QA": {
+   "structure_qa": [
+    {
+     "node_number": {
+      "Q": "How many nodes in this graph?",
+      "A": 14
+     },
+     "average_degree": {
+      "Q": "What's the average degree of this graph?",
+      "A": 2.0
+     },
+     "is_connected": {
+      "Q": "Is this graph a connected graph?",
+      "A": "Yes"
+     },
+     "similarity": {
+      "Q": "What are the triplets in this graph? ",
+      "A": [
+       [
+        0,
+        9,
+        1
+       ],
+       [
+        0,
+        12,
+        3
+       ],
+       [
+        0,
+        2,
+        3
+       ],
+       [
+        1,
+        6,
+        3
+       ],
+       [
+        2,
+        4,
+        3
+       ],
+       [
+        2,
+        6,
+        3
+       ],
+       [
+        2,
+        13,
+        3
+       ],
+       [
+        3,
+        5,
+        2
+       ],
+       [
+        3,
+        10,
+        5
+       ],
+       [
+        3,
+        6,
+        2
+       ],
+       [
+        6,
+        11,
+        2
+       ],
+       [
+        7,
+        10,
+        2
+       ],
+       [
+        8,
+        10,
+        2
+       ],
+       [
+        10,
+        11,
+        5
+       ]
+      ]
+     }
+    }
+   ],
+   "specail_qa": {
+    "Q": "A tree is an undirected graph in which any two vertices are connected by exactly one path, and there are no cycles. Based on the following description, determine if the given graph is a tree.",
+    "A": "No, it is not a tree."
+   }
+  }
+ },
+ {
+  "nodes": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "edges": [
+   {
+    "source": 0,
+    "target": 10,
+    "attributes": 2
+   },
+   {
+    "source": 0,
+    "target": 4,
+    "attributes": 1
+   },
+   {
+    "source": 1,
+    "target": 13,
+    "attributes": 5
+   },
+   {
+    "source": 2,
+    "target": 13,
+    "attributes": 5
+   },
+   {
+    "source": 3,
+    "target": 7,
+    "attributes": 2
+   },
+   {
+    "source": 3,
+    "target": 13,
+    "attributes": 2
+   },
+   {
+    "source": 4,
+    "target": 13,
+    "attributes": 1
+   },
+   {
+    "source": 5,
+    "target": 10,
+    "attributes": 2
+   },
+   {
+    "source": 6,
+    "target": 11,
+    "attributes": 5
+   },
+   {
+    "source": 6,
+    "target": 10,
+    "attributes": 5
+   },
+   {
+    "source": 8,
+    "target": 12,
+    "attributes": 5
+   },
+   {
+    "source": 8,
+    "target": 9,
+    "attributes": 1
+   },
+   {
+    "source": 9,
+    "target": 13,
+    "attributes": 5
+   }
+  ],
+  "params": [],
+  "node_count": 14,
+  "edge_count": 13,
+  "is_directed": false,
+  "is_tree": true,
+  "is_connected": true,
+  "components": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  ],
+  "graph_name": "Tree Structure Graph",
+  "average_degree": 1.8571428571428572,
+  "diameter": 8,
+  "radius": 4,
+  "adjacency_matrix": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    5,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    5,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    5
+   ],
+   [
+    2,
+    0,
+    0,
+    0,
+    0,
+    2,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    5,
+    5,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "graph_description": "This is a undirected graph with the following edges:\nFrom node 0 to node 10, distance is 2\nFrom node 0 to node 4, distance is 1\nFrom node 1 to node 13, distance is 5\nFrom node 2 to node 13, distance is 5\nFrom node 3 to node 7, distance is 2\nFrom node 3 to node 13, distance is 2\nFrom node 4 to node 13, distance is 1\nFrom node 5 to node 10, distance is 2\nFrom node 6 to node 11, distance is 5\nFrom node 6 to node 10, distance is 5\nFrom node 8 to node 12, distance is 5\nFrom node 8 to node 9, distance is 1\nFrom node 9 to node 13, distance is 5",
+  "random_graph_description": "This is a undirected graph with the following edges:\nFrom node 6 to node 10, distance is 5\nFrom node 0 to node 10, distance is 2\nFrom node 6 to node 11, distance is 5\nFrom node 3 to node 13, distance is 2\nFrom node 1 to node 13, distance is 5\nFrom node 2 to node 13, distance is 5\nFrom node 5 to node 10, distance is 2\nFrom node 4 to node 13, distance is 1\nFrom node 0 to node 4, distance is 1\nFrom node 9 to node 13, distance is 5\nFrom node 8 to node 12, distance is 5\nFrom node 3 to node 7, distance is 2\nFrom node 8 to node 9, distance is 1",
+  "hamiltonian_cycle": null,
+  "euler_cycle": false,
+  "QA": {
+   "structure_qa": [
+    {
+     "node_number": {
+      "Q": "How many nodes in this graph?",
+      "A": 14
+     },
+     "average_degree": {
+      "Q": "What's the average degree of this graph?",
+      "A": 1.8571428571428572
+     },
+     "is_connected": {
+      "Q": "Is this graph a connected graph?",
+      "A": "Yes"
+     },
+     "similarity": {
+      "Q": "What are the triplets in this graph? ",
+      "A": [
+       [
+        0,
+        10,
+        2
+       ],
+       [
+        0,
+        4,
+        1
+       ],
+       [
+        1,
+        13,
+        5
+       ],
+       [
+        2,
+        13,
+        5
+       ],
+       [
+        3,
+        7,
+        2
+       ],
+       [
+        3,
+        13,
+        2
+       ],
+       [
+        4,
+        13,
+        1
+       ],
+       [
+        5,
+        10,
+        2
+       ],
+       [
+        6,
+        11,
+        5
+       ],
+       [
+        6,
+        10,
+        5
+       ],
+       [
+        8,
+        12,
+        5
+       ],
+       [
+        8,
+        9,
+        1
+       ],
+       [
+        9,
+        13,
+        5
+       ]
+      ]
+     }
+    }
+   ],
+   "specail_qa": {
+    "Q": "A tree is an undirected graph in which any two vertices are connected by exactly one path, and there are no cycles. Based on the following description, determine if the given graph is a tree.",
+    "A": "Yes, it is a tree."
+   }
+  }
+ },
+ {
+  "nodes": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "edges": [
+   {
+    "source": 0,
+    "target": 3,
+    "attributes": 3
+   },
+   {
+    "source": 0,
+    "target": 4,
+    "attributes": 5
+   },
+   {
+    "source": 1,
+    "target": 2,
+    "attributes": 1
+   },
+   {
+    "source": 1,
+    "target": 10,
+    "attributes": 4
+   },
+   {
+    "source": 3,
+    "target": 8,
+    "attributes": 3
+   },
+   {
+    "source": 4,
+    "target": 7,
+    "attributes": 2
+   },
+   {
+    "source": 5,
+    "target": 9,
+    "attributes": 4
+   },
+   {
+    "source": 5,
+    "target": 11,
+    "attributes": 4
+   },
+   {
+    "source": 5,
+    "target": 8,
+    "attributes": 2
+   },
+   {
+    "source": 6,
+    "target": 12,
+    "attributes": 2
+   },
+   {
+    "source": 7,
+    "target": 10,
+    "attributes": 5
+   },
+   {
+    "source": 7,
+    "target": 12,
+    "attributes": 1
+   },
+   {
+    "source": 7,
+    "target": 13,
+    "attributes": 3
+   }
+  ],
+  "params": [],
+  "node_count": 14,
+  "edge_count": 13,
+  "is_directed": false,
+  "is_tree": true,
+  "is_connected": true,
+  "components": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  ],
+  "graph_name": "Tree Structure Graph",
+  "average_degree": 1.8571428571428572,
+  "diameter": 9,
+  "radius": 5,
+  "adjacency_matrix": [
+   [
+    0,
+    0,
+    0,
+    3,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    4,
+    0,
+    4,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    1,
+    3
+   ],
+   [
+    0,
+    0,
+    0,
+    3,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "graph_description": "This is a undirected graph with the following edges:\nFrom node 0 to node 3, distance is 3\nFrom node 0 to node 4, distance is 5\nFrom node 1 to node 2, distance is 1\nFrom node 1 to node 10, distance is 4\nFrom node 3 to node 8, distance is 3\nFrom node 4 to node 7, distance is 2\nFrom node 5 to node 9, distance is 4\nFrom node 5 to node 11, distance is 4\nFrom node 5 to node 8, distance is 2\nFrom node 6 to node 12, distance is 2\nFrom node 7 to node 10, distance is 5\nFrom node 7 to node 12, distance is 1\nFrom node 7 to node 13, distance is 3",
+  "random_graph_description": "This is a undirected graph with the following edges:\nFrom node 6 to node 12, distance is 2\nFrom node 5 to node 9, distance is 4\nFrom node 3 to node 8, distance is 3\nFrom node 1 to node 2, distance is 1\nFrom node 1 to node 10, distance is 4\nFrom node 5 to node 8, distance is 2\nFrom node 7 to node 13, distance is 3\nFrom node 4 to node 7, distance is 2\nFrom node 5 to node 11, distance is 4\nFrom node 0 to node 4, distance is 5\nFrom node 7 to node 12, distance is 1\nFrom node 7 to node 10, distance is 5\nFrom node 0 to node 3, distance is 3",
+  "hamiltonian_cycle": null,
+  "euler_cycle": false,
+  "QA": {
+   "structure_qa": [
+    {
+     "node_number": {
+      "Q": "How many nodes in this graph?",
+      "A": 14
+     },
+     "average_degree": {
+      "Q": "What's the average degree of this graph?",
+      "A": 1.8571428571428572
+     },
+     "is_connected": {
+      "Q": "Is this graph a connected graph?",
+      "A": "Yes"
+     },
+     "similarity": {
+      "Q": "What are the triplets in this graph? ",
+      "A": [
+       [
+        0,
+        3,
+        3
+       ],
+       [
+        0,
+        4,
+        5
+       ],
+       [
+        1,
+        2,
+        1
+       ],
+       [
+        1,
+        10,
+        4
+       ],
+       [
+        3,
+        8,
+        3
+       ],
+       [
+        4,
+        7,
+        2
+       ],
+       [
+        5,
+        9,
+        4
+       ],
+       [
+        5,
+        11,
+        4
+       ],
+       [
+        5,
+        8,
+        2
+       ],
+       [
+        6,
+        12,
+        2
+       ],
+       [
+        7,
+        10,
+        5
+       ],
+       [
+        7,
+        12,
+        1
+       ],
+       [
+        7,
+        13,
+        3
+       ]
+      ]
+     }
+    }
+   ],
+   "specail_qa": {
+    "Q": "A tree is an undirected graph in which any two vertices are connected by exactly one path, and there are no cycles. Based on the following description, determine if the given graph is a tree.",
+    "A": "Yes, it is a tree."
+   }
+  }
+ },
+ {
+  "nodes": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "edges": [
+   {
+    "source": 0,
+    "target": 3,
+    "attributes": 3
+   },
+   {
+    "source": 0,
+    "target": 9,
+    "attributes": 5
+   },
+   {
+    "source": 0,
+    "target": 4,
+    "attributes": 2
+   },
+   {
+    "source": 1,
+    "target": 9,
+    "attributes": 3
+   },
+   {
+    "source": 1,
+    "target": 4,
+    "attributes": 1
+   },
+   {
+    "source": 2,
+    "target": 4,
+    "attributes": 3
+   },
+   {
+    "source": 2,
+    "target": 6,
+    "attributes": 1
+   },
+   {
+    "source": 4,
+    "target": 10,
+    "attributes": 1
+   },
+   {
+    "source": 5,
+    "target": 7,
+    "attributes": 3
+   },
+   {
+    "source": 5,
+    "target": 13,
+    "attributes": 5
+   },
+   {
+    "source": 6,
+    "target": 11,
+    "attributes": 1
+   },
+   {
+    "source": 7,
+    "target": 11,
+    "attributes": 1
+   },
+   {
+    "source": 8,
+    "target": 13,
+    "attributes": 2
+   },
+   {
+    "source": 10,
+    "target": 12,
+    "attributes": 4
+   }
+  ],
+  "params": [],
+  "node_count": 14,
+  "edge_count": 14,
+  "is_directed": false,
+  "is_tree": false,
+  "is_connected": true,
+  "components": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  ],
+  "graph_name": "Tree Structure Graph",
+  "average_degree": 2.0,
+  "diameter": 9,
+  "radius": 5,
+  "adjacency_matrix": [
+   [
+    0,
+    0,
+    0,
+    3,
+    2,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    2,
+    1,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   [
+    5,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "graph_description": "This is a undirected graph with the following edges:\nFrom node 0 to node 3, distance is 3\nFrom node 0 to node 9, distance is 5\nFrom node 0 to node 4, distance is 2\nFrom node 1 to node 9, distance is 3\nFrom node 1 to node 4, distance is 1\nFrom node 2 to node 4, distance is 3\nFrom node 2 to node 6, distance is 1\nFrom node 4 to node 10, distance is 1\nFrom node 5 to node 7, distance is 3\nFrom node 5 to node 13, distance is 5\nFrom node 6 to node 11, distance is 1\nFrom node 7 to node 11, distance is 1\nFrom node 8 to node 13, distance is 2\nFrom node 10 to node 12, distance is 4",
+  "random_graph_description": "This is a undirected graph with the following edges:\nFrom node 0 to node 9, distance is 5\nFrom node 1 to node 9, distance is 3\nFrom node 10 to node 12, distance is 4\nFrom node 2 to node 6, distance is 1\nFrom node 8 to node 13, distance is 2\nFrom node 0 to node 4, distance is 2\nFrom node 5 to node 7, distance is 3\nFrom node 4 to node 10, distance is 1\nFrom node 0 to node 3, distance is 3\nFrom node 1 to node 4, distance is 1\nFrom node 5 to node 13, distance is 5\nFrom node 7 to node 11, distance is 1\nFrom node 6 to node 11, distance is 1\nFrom node 2 to node 4, distance is 3",
+  "hamiltonian_cycle": null,
+  "euler_cycle": false,
+  "QA": {
+   "structure_qa": [
+    {
+     "node_number": {
+      "Q": "How many nodes in this graph?",
+      "A": 14
+     },
+     "average_degree": {
+      "Q": "What's the average degree of this graph?",
+      "A": 2.0
+     },
+     "is_connected": {
+      "Q": "Is this graph a connected graph?",
+      "A": "Yes"
+     },
+     "similarity": {
+      "Q": "What are the triplets in this graph? ",
+      "A": [
+       [
+        0,
+        3,
+        3
+       ],
+       [
+        0,
+        9,
+        5
+       ],
+       [
+        0,
+        4,
+        2
+       ],
+       [
+        1,
+        9,
+        3
+       ],
+       [
+        1,
+        4,
+        1
+       ],
+       [
+        2,
+        4,
+        3
+       ],
+       [
+        2,
+        6,
+        1
+       ],
+       [
+        4,
+        10,
+        1
+       ],
+       [
+        5,
+        7,
+        3
+       ],
+       [
+        5,
+        13,
+        5
+       ],
+       [
+        6,
+        11,
+        1
+       ],
+       [
+        7,
+        11,
+        1
+       ],
+       [
+        8,
+        13,
+        2
+       ],
+       [
+        10,
+        12,
+        4
+       ]
+      ]
+     }
+    }
+   ],
+   "specail_qa": {
+    "Q": "A tree is an undirected graph in which any two vertices are connected by exactly one path, and there are no cycles. Based on the following description, determine if the given graph is a tree.",
+    "A": "No, it is not a tree."
+   }
+  }
+ },
+ {
+  "nodes": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "edges": [
+   {
+    "source": 0,
+    "target": 6,
+    "attributes": 3
+   },
+   {
+    "source": 0,
+    "target": 11,
+    "attributes": 3
+   },
+   {
+    "source": 1,
+    "target": 3,
+    "attributes": 5
+   },
+   {
+    "source": 2,
+    "target": 7,
+    "attributes": 2
+   },
+   {
+    "source": 2,
+    "target": 6,
+    "attributes": 1
+   },
+   {
+    "source": 3,
+    "target": 8,
+    "attributes": 4
+   },
+   {
+    "source": 3,
+    "target": 10,
+    "attributes": 4
+   },
+   {
+    "source": 3,
+    "target": 6,
+    "attributes": 4
+   },
+   {
+    "source": 4,
+    "target": 5,
+    "attributes": 5
+   },
+   {
+    "source": 5,
+    "target": 12,
+    "attributes": 3
+   },
+   {
+    "source": 5,
+    "target": 13,
+    "attributes": 5
+   },
+   {
+    "source": 9,
+    "target": 12,
+    "attributes": 4
+   },
+   {
+    "source": 11,
+    "target": 12,
+    "attributes": 4
+   }
+  ],
+  "params": [],
+  "node_count": 14,
+  "edge_count": 13,
+  "is_directed": false,
+  "is_tree": true,
+  "is_connected": true,
+  "components": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  ],
+  "graph_name": "Tree Structure Graph",
+  "average_degree": 1.8571428571428572,
+  "diameter": 7,
+  "radius": 4,
+  "adjacency_matrix": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    4,
+    0,
+    4,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    5
+   ],
+   [
+    3,
+    0,
+    1,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    4,
+    0,
+    4,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "graph_description": "This is a undirected graph with the following edges:\nFrom node 0 to node 6, distance is 3\nFrom node 0 to node 11, distance is 3\nFrom node 1 to node 3, distance is 5\nFrom node 2 to node 7, distance is 2\nFrom node 2 to node 6, distance is 1\nFrom node 3 to node 8, distance is 4\nFrom node 3 to node 10, distance is 4\nFrom node 3 to node 6, distance is 4\nFrom node 4 to node 5, distance is 5\nFrom node 5 to node 12, distance is 3\nFrom node 5 to node 13, distance is 5\nFrom node 9 to node 12, distance is 4\nFrom node 11 to node 12, distance is 4",
+  "random_graph_description": "This is a undirected graph with the following edges:\nFrom node 3 to node 10, distance is 4\nFrom node 2 to node 7, distance is 2\nFrom node 0 to node 6, distance is 3\nFrom node 1 to node 3, distance is 5\nFrom node 4 to node 5, distance is 5\nFrom node 3 to node 6, distance is 4\nFrom node 5 to node 12, distance is 3\nFrom node 2 to node 6, distance is 1\nFrom node 11 to node 12, distance is 4\nFrom node 9 to node 12, distance is 4\nFrom node 0 to node 11, distance is 3\nFrom node 3 to node 8, distance is 4\nFrom node 5 to node 13, distance is 5",
+  "hamiltonian_cycle": null,
+  "euler_cycle": false,
+  "QA": {
+   "structure_qa": [
+    {
+     "node_number": {
+      "Q": "How many nodes in this graph?",
+      "A": 14
+     },
+     "average_degree": {
+      "Q": "What's the average degree of this graph?",
+      "A": 1.8571428571428572
+     },
+     "is_connected": {
+      "Q": "Is this graph a connected graph?",
+      "A": "Yes"
+     },
+     "similarity": {
+      "Q": "What are the triplets in this graph? ",
+      "A": [
+       [
+        0,
+        6,
+        3
+       ],
+       [
+        0,
+        11,
+        3
+       ],
+       [
+        1,
+        3,
+        5
+       ],
+       [
+        2,
+        7,
+        2
+       ],
+       [
+        2,
+        6,
+        1
+       ],
+       [
+        3,
+        8,
+        4
+       ],
+       [
+        3,
+        10,
+        4
+       ],
+       [
+        3,
+        6,
+        4
+       ],
+       [
+        4,
+        5,
+        5
+       ],
+       [
+        5,
+        12,
+        3
+       ],
+       [
+        5,
+        13,
+        5
+       ],
+       [
+        9,
+        12,
+        4
+       ],
+       [
+        11,
+        12,
+        4
+       ]
+      ]
+     }
+    }
+   ],
+   "specail_qa": {
+    "Q": "A tree is an undirected graph in which any two vertices are connected by exactly one path, and there are no cycles. Based on the following description, determine if the given graph is a tree.",
+    "A": "Yes, it is a tree."
+   }
+  }
+ },
+ {
+  "nodes": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "edges": [
+   {
+    "source": 0,
+    "target": 13,
+    "attributes": 3
+   },
+   {
+    "source": 1,
+    "target": 8,
+    "attributes": 1
+   },
+   {
+    "source": 1,
+    "target": 3,
+    "attributes": 5
+   },
+   {
+    "source": 1,
+    "target": 7,
+    "attributes": 4
+   },
+   {
+    "source": 1,
+    "target": 2,
+    "attributes": 2
+   },
+   {
+    "source": 2,
+    "target": 13,
+    "attributes": 2
+   },
+   {
+    "source": 3,
+    "target": 11,
+    "attributes": 4
+   },
+   {
+    "source": 4,
+    "target": 8,
+    "attributes": 3
+   },
+   {
+    "source": 5,
+    "target": 6,
+    "attributes": 5
+   },
+   {
+    "source": 5,
+    "target": 7,
+    "attributes": 1
+   },
+   {
+    "source": 6,
+    "target": 10,
+    "attributes": 1
+   },
+   {
+    "source": 7,
+    "target": 10,
+    "attributes": 5
+   },
+   {
+    "source": 9,
+    "target": 12,
+    "attributes": 2
+   },
+   {
+    "source": 9,
+    "target": 10,
+    "attributes": 5
+   }
+  ],
+  "params": [],
+  "node_count": 14,
+  "edge_count": 14,
+  "is_directed": false,
+  "is_tree": false,
+  "is_connected": true,
+  "components": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  ],
+  "graph_name": "Tree Structure Graph",
+  "average_degree": 2.0,
+  "diameter": 7,
+  "radius": 4,
+  "adjacency_matrix": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+   ],
+   [
+    0,
+    0,
+    2,
+    5,
+    0,
+    0,
+    0,
+    4,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   [
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    4,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    2,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    5,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    3,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "graph_description": "This is a undirected graph with the following edges:\nFrom node 0 to node 13, distance is 3\nFrom node 1 to node 8, distance is 1\nFrom node 1 to node 3, distance is 5\nFrom node 1 to node 7, distance is 4\nFrom node 1 to node 2, distance is 2\nFrom node 2 to node 13, distance is 2\nFrom node 3 to node 11, distance is 4\nFrom node 4 to node 8, distance is 3\nFrom node 5 to node 6, distance is 5\nFrom node 5 to node 7, distance is 1\nFrom node 6 to node 10, distance is 1\nFrom node 7 to node 10, distance is 5\nFrom node 9 to node 12, distance is 2\nFrom node 9 to node 10, distance is 5",
+  "random_graph_description": "This is a undirected graph with the following edges:\nFrom node 2 to node 13, distance is 2\nFrom node 9 to node 10, distance is 5\nFrom node 5 to node 7, distance is 1\nFrom node 1 to node 8, distance is 1\nFrom node 5 to node 6, distance is 5\nFrom node 6 to node 10, distance is 1\nFrom node 9 to node 12, distance is 2\nFrom node 1 to node 2, distance is 2\nFrom node 1 to node 7, distance is 4\nFrom node 3 to node 11, distance is 4\nFrom node 7 to node 10, distance is 5\nFrom node 0 to node 13, distance is 3\nFrom node 4 to node 8, distance is 3\nFrom node 1 to node 3, distance is 5",
+  "hamiltonian_cycle": null,
+  "euler_cycle": false,
+  "QA": {
+   "structure_qa": [
+    {
+     "node_number": {
+      "Q": "How many nodes in this graph?",
+      "A": 14
+     },
+     "average_degree": {
+      "Q": "What's the average degree of this graph?",
+      "A": 2.0
+     },
+     "is_connected": {
+      "Q": "Is this graph a connected graph?",
+      "A": "Yes"
+     },
+     "similarity": {
+      "Q": "What are the triplets in this graph? ",
+      "A": [
+       [
+        0,
+        13,
+        3
+       ],
+       [
+        1,
+        8,
+        1
+       ],
+       [
+        1,
+        3,
+        5
+       ],
+       [
+        1,
+        7,
+        4
+       ],
+       [
+        1,
+        2,
+        2
+       ],
+       [
+        2,
+        13,
+        2
+       ],
+       [
+        3,
+        11,
+        4
+       ],
+       [
+        4,
+        8,
+        3
+       ],
+       [
+        5,
+        6,
+        5
+       ],
+       [
+        5,
+        7,
+        1
+       ],
+       [
+        6,
+        10,
+        1
+       ],
+       [
+        7,
+        10,
+        5
+       ],
+       [
+        9,
+        12,
+        2
+       ],
+       [
+        9,
+        10,
+        5
+       ]
+      ]
+     }
+    }
+   ],
+   "specail_qa": {
+    "Q": "A tree is an undirected graph in which any two vertices are connected by exactly one path, and there are no cycles. Based on the following description, determine if the given graph is a tree.",
+    "A": "No, it is not a tree."
+   }
+  }
+ },
+ {
+  "nodes": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "edges": [
+   {
+    "source": 0,
+    "target": 11,
+    "attributes": 5
+   },
+   {
+    "source": 0,
+    "target": 8,
+    "attributes": 4
+   },
+   {
+    "source": 1,
+    "target": 2,
+    "attributes": 4
+   },
+   {
+    "source": 1,
+    "target": 11,
+    "attributes": 1
+   },
+   {
+    "source": 2,
+    "target": 3,
+    "attributes": 4
+   },
+   {
+    "source": 3,
+    "target": 9,
+    "attributes": 2
+   },
+   {
+    "source": 4,
+    "target": 6,
+    "attributes": 4
+   },
+   {
+    "source": 5,
+    "target": 6,
+    "attributes": 2
+   },
+   {
+    "source": 6,
+    "target": 12,
+    "attributes": 3
+   },
+   {
+    "source": 7,
+    "target": 8,
+    "attributes": 4
+   },
+   {
+    "source": 7,
+    "target": 13,
+    "attributes": 4
+   },
+   {
+    "source": 8,
+    "target": 12,
+    "attributes": 1
+   },
+   {
+    "source": 9,
+    "target": 10,
+    "attributes": 1
+   },
+   {
+    "source": 11,
+    "target": 12,
+    "attributes": 2
+   }
+  ],
+  "params": [],
+  "node_count": 14,
+  "edge_count": 14,
+  "is_directed": false,
+  "is_tree": false,
+  "is_connected": true,
+  "components": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  ],
+  "graph_name": "Tree Structure Graph",
+  "average_degree": 2.0,
+  "diameter": 9,
+  "radius": 5,
+  "adjacency_matrix": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    5,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    4,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    4,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    4
+   ],
+   [
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    5,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    1,
+    0,
+    0,
+    2,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "graph_description": "This is a undirected graph with the following edges:\nFrom node 0 to node 11, distance is 5\nFrom node 0 to node 8, distance is 4\nFrom node 1 to node 2, distance is 4\nFrom node 1 to node 11, distance is 1\nFrom node 2 to node 3, distance is 4\nFrom node 3 to node 9, distance is 2\nFrom node 4 to node 6, distance is 4\nFrom node 5 to node 6, distance is 2\nFrom node 6 to node 12, distance is 3\nFrom node 7 to node 8, distance is 4\nFrom node 7 to node 13, distance is 4\nFrom node 8 to node 12, distance is 1\nFrom node 9 to node 10, distance is 1\nFrom node 11 to node 12, distance is 2",
+  "random_graph_description": "This is a undirected graph with the following edges:\nFrom node 1 to node 2, distance is 4\nFrom node 9 to node 10, distance is 1\nFrom node 8 to node 12, distance is 1\nFrom node 2 to node 3, distance is 4\nFrom node 7 to node 13, distance is 4\nFrom node 5 to node 6, distance is 2\nFrom node 11 to node 12, distance is 2\nFrom node 0 to node 8, distance is 4\nFrom node 0 to node 11, distance is 5\nFrom node 1 to node 11, distance is 1\nFrom node 7 to node 8, distance is 4\nFrom node 4 to node 6, distance is 4\nFrom node 3 to node 9, distance is 2\nFrom node 6 to node 12, distance is 3",
+  "hamiltonian_cycle": null,
+  "euler_cycle": false,
+  "QA": {
+   "structure_qa": [
+    {
+     "node_number": {
+      "Q": "How many nodes in this graph?",
+      "A": 14
+     },
+     "average_degree": {
+      "Q": "What's the average degree of this graph?",
+      "A": 2.0
+     },
+     "is_connected": {
+      "Q": "Is this graph a connected graph?",
+      "A": "Yes"
+     },
+     "similarity": {
+      "Q": "What are the triplets in this graph? ",
+      "A": [
+       [
+        0,
+        11,
+        5
+       ],
+       [
+        0,
+        8,
+        4
+       ],
+       [
+        1,
+        2,
+        4
+       ],
+       [
+        1,
+        11,
+        1
+       ],
+       [
+        2,
+        3,
+        4
+       ],
+       [
+        3,
+        9,
+        2
+       ],
+       [
+        4,
+        6,
+        4
+       ],
+       [
+        5,
+        6,
+        2
+       ],
+       [
+        6,
+        12,
+        3
+       ],
+       [
+        7,
+        8,
+        4
+       ],
+       [
+        7,
+        13,
+        4
+       ],
+       [
+        8,
+        12,
+        1
+       ],
+       [
+        9,
+        10,
+        1
+       ],
+       [
+        11,
+        12,
+        2
+       ]
+      ]
+     }
+    }
+   ],
+   "specail_qa": {
+    "Q": "A tree is an undirected graph in which any two vertices are connected by exactly one path, and there are no cycles. Based on the following description, determine if the given graph is a tree.",
+    "A": "No, it is not a tree."
+   }
+  }
+ },
+ {
+  "nodes": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "edges": [
+   {
+    "source": 0,
+    "target": 10,
+    "attributes": 4
+   },
+   {
+    "source": 0,
+    "target": 13,
+    "attributes": 3
+   },
+   {
+    "source": 1,
+    "target": 11,
+    "attributes": 4
+   },
+   {
+    "source": 1,
+    "target": 9,
+    "attributes": 1
+   },
+   {
+    "source": 2,
+    "target": 9,
+    "attributes": 5
+   },
+   {
+    "source": 2,
+    "target": 4,
+    "attributes": 5
+   },
+   {
+    "source": 3,
+    "target": 6,
+    "attributes": 1
+   },
+   {
+    "source": 3,
+    "target": 8,
+    "attributes": 2
+   },
+   {
+    "source": 3,
+    "target": 12,
+    "attributes": 3
+   },
+   {
+    "source": 3,
+    "target": 13,
+    "attributes": 5
+   },
+   {
+    "source": 4,
+    "target": 7,
+    "attributes": 5
+   },
+   {
+    "source": 4,
+    "target": 10,
+    "attributes": 4
+   },
+   {
+    "source": 5,
+    "target": 13,
+    "attributes": 1
+   },
+   {
+    "source": 11,
+    "target": 12,
+    "attributes": 2
+   }
+  ],
+  "params": [],
+  "node_count": 14,
+  "edge_count": 14,
+  "is_directed": false,
+  "is_tree": false,
+  "is_connected": true,
+  "components": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  ],
+  "graph_name": "Tree Structure Graph",
+  "average_degree": 2.0,
+  "diameter": 6,
+  "radius": 5,
+  "adjacency_matrix": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    3
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    4,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2,
+    0,
+    0,
+    0,
+    3,
+    5
+   ],
+   [
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    4,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+   ],
+   [
+    3,
+    0,
+    0,
+    5,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "graph_description": "This is a undirected graph with the following edges:\nFrom node 0 to node 10, distance is 4\nFrom node 0 to node 13, distance is 3\nFrom node 1 to node 11, distance is 4\nFrom node 1 to node 9, distance is 1\nFrom node 2 to node 9, distance is 5\nFrom node 2 to node 4, distance is 5\nFrom node 3 to node 6, distance is 1\nFrom node 3 to node 8, distance is 2\nFrom node 3 to node 12, distance is 3\nFrom node 3 to node 13, distance is 5\nFrom node 4 to node 7, distance is 5\nFrom node 4 to node 10, distance is 4\nFrom node 5 to node 13, distance is 1\nFrom node 11 to node 12, distance is 2",
+  "random_graph_description": "This is a undirected graph with the following edges:\nFrom node 1 to node 11, distance is 4\nFrom node 2 to node 9, distance is 5\nFrom node 0 to node 13, distance is 3\nFrom node 4 to node 7, distance is 5\nFrom node 0 to node 10, distance is 4\nFrom node 1 to node 9, distance is 1\nFrom node 3 to node 8, distance is 2\nFrom node 4 to node 10, distance is 4\nFrom node 2 to node 4, distance is 5\nFrom node 3 to node 6, distance is 1\nFrom node 3 to node 13, distance is 5\nFrom node 11 to node 12, distance is 2\nFrom node 5 to node 13, distance is 1\nFrom node 3 to node 12, distance is 3",
+  "hamiltonian_cycle": null,
+  "euler_cycle": false,
+  "QA": {
+   "structure_qa": [
+    {
+     "node_number": {
+      "Q": "How many nodes in this graph?",
+      "A": 14
+     },
+     "average_degree": {
+      "Q": "What's the average degree of this graph?",
+      "A": 2.0
+     },
+     "is_connected": {
+      "Q": "Is this graph a connected graph?",
+      "A": "Yes"
+     },
+     "similarity": {
+      "Q": "What are the triplets in this graph? ",
+      "A": [
+       [
+        0,
+        10,
+        4
+       ],
+       [
+        0,
+        13,
+        3
+       ],
+       [
+        1,
+        11,
+        4
+       ],
+       [
+        1,
+        9,
+        1
+       ],
+       [
+        2,
+        9,
+        5
+       ],
+       [
+        2,
+        4,
+        5
+       ],
+       [
+        3,
+        6,
+        1
+       ],
+       [
+        3,
+        8,
+        2
+       ],
+       [
+        3,
+        12,
+        3
+       ],
+       [
+        3,
+        13,
+        5
+       ],
+       [
+        4,
+        7,
+        5
+       ],
+       [
+        4,
+        10,
+        4
+       ],
+       [
+        5,
+        13,
+        1
+       ],
+       [
+        11,
+        12,
+        2
+       ]
+      ]
+     }
+    }
+   ],
+   "specail_qa": {
+    "Q": "A tree is an undirected graph in which any two vertices are connected by exactly one path, and there are no cycles. Based on the following description, determine if the given graph is a tree.",
+    "A": "No, it is not a tree."
+   }
+  }
+ },
+ {
+  "nodes": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "edges": [
+   {
+    "source": 0,
+    "target": 4,
+    "attributes": 1
+   },
+   {
+    "source": 1,
+    "target": 12,
+    "attributes": 5
+   },
+   {
+    "source": 2,
+    "target": 10,
+    "attributes": 5
+   },
+   {
+    "source": 3,
+    "target": 4,
+    "attributes": 4
+   },
+   {
+    "source": 3,
+    "target": 12,
+    "attributes": 3
+   },
+   {
+    "source": 4,
+    "target": 11,
+    "attributes": 1
+   },
+   {
+    "source": 4,
+    "target": 12,
+    "attributes": 2
+   },
+   {
+    "source": 5,
+    "target": 7,
+    "attributes": 1
+   },
+   {
+    "source": 5,
+    "target": 10,
+    "attributes": 4
+   },
+   {
+    "source": 5,
+    "target": 13,
+    "attributes": 1
+   },
+   {
+    "source": 6,
+    "target": 7,
+    "attributes": 1
+   },
+   {
+    "source": 8,
+    "target": 12,
+    "attributes": 4
+   },
+   {
+    "source": 8,
+    "target": 13,
+    "attributes": 3
+   },
+   {
+    "source": 9,
+    "target": 12,
+    "attributes": 1
+   }
+  ],
+  "params": [],
+  "node_count": 14,
+  "edge_count": 14,
+  "is_directed": false,
+  "is_tree": false,
+  "is_connected": true,
+  "components": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  ],
+  "graph_name": "Tree Structure Graph",
+  "average_degree": 2.0,
+  "diameter": 7,
+  "radius": 4,
+  "adjacency_matrix": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    4,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    3
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    5,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    5,
+    0,
+    3,
+    2,
+    0,
+    0,
+    0,
+    4,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "graph_description": "This is a undirected graph with the following edges:\nFrom node 0 to node 4, distance is 1\nFrom node 1 to node 12, distance is 5\nFrom node 2 to node 10, distance is 5\nFrom node 3 to node 4, distance is 4\nFrom node 3 to node 12, distance is 3\nFrom node 4 to node 11, distance is 1\nFrom node 4 to node 12, distance is 2\nFrom node 5 to node 7, distance is 1\nFrom node 5 to node 10, distance is 4\nFrom node 5 to node 13, distance is 1\nFrom node 6 to node 7, distance is 1\nFrom node 8 to node 12, distance is 4\nFrom node 8 to node 13, distance is 3\nFrom node 9 to node 12, distance is 1",
+  "random_graph_description": "This is a undirected graph with the following edges:\nFrom node 6 to node 7, distance is 1\nFrom node 4 to node 12, distance is 2\nFrom node 2 to node 10, distance is 5\nFrom node 4 to node 11, distance is 1\nFrom node 0 to node 4, distance is 1\nFrom node 3 to node 4, distance is 4\nFrom node 5 to node 7, distance is 1\nFrom node 5 to node 13, distance is 1\nFrom node 8 to node 13, distance is 3\nFrom node 5 to node 10, distance is 4\nFrom node 3 to node 12, distance is 3\nFrom node 1 to node 12, distance is 5\nFrom node 9 to node 12, distance is 1\nFrom node 8 to node 12, distance is 4",
+  "hamiltonian_cycle": null,
+  "euler_cycle": false,
+  "QA": {
+   "structure_qa": [
+    {
+     "node_number": {
+      "Q": "How many nodes in this graph?",
+      "A": 14
+     },
+     "average_degree": {
+      "Q": "What's the average degree of this graph?",
+      "A": 2.0
+     },
+     "is_connected": {
+      "Q": "Is this graph a connected graph?",
+      "A": "Yes"
+     },
+     "similarity": {
+      "Q": "What are the triplets in this graph? ",
+      "A": [
+       [
+        0,
+        4,
+        1
+       ],
+       [
+        1,
+        12,
+        5
+       ],
+       [
+        2,
+        10,
+        5
+       ],
+       [
+        3,
+        4,
+        4
+       ],
+       [
+        3,
+        12,
+        3
+       ],
+       [
+        4,
+        11,
+        1
+       ],
+       [
+        4,
+        12,
+        2
+       ],
+       [
+        5,
+        7,
+        1
+       ],
+       [
+        5,
+        10,
+        4
+       ],
+       [
+        5,
+        13,
+        1
+       ],
+       [
+        6,
+        7,
+        1
+       ],
+       [
+        8,
+        12,
+        4
+       ],
+       [
+        8,
+        13,
+        3
+       ],
+       [
+        9,
+        12,
+        1
+       ]
+      ]
+     }
+    }
+   ],
+   "specail_qa": {
+    "Q": "A tree is an undirected graph in which any two vertices are connected by exactly one path, and there are no cycles. Based on the following description, determine if the given graph is a tree.",
+    "A": "No, it is not a tree."
+   }
+  }
+ },
+ {
+  "nodes": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "edges": [
+   {
+    "source": 0,
+    "target": 8,
+    "attributes": 1
+   },
+   {
+    "source": 1,
+    "target": 12,
+    "attributes": 3
+   },
+   {
+    "source": 1,
+    "target": 13,
+    "attributes": 3
+   },
+   {
+    "source": 2,
+    "target": 7,
+    "attributes": 3
+   },
+   {
+    "source": 3,
+    "target": 4,
+    "attributes": 2
+   },
+   {
+    "source": 4,
+    "target": 6,
+    "attributes": 3
+   },
+   {
+    "source": 5,
+    "target": 12,
+    "attributes": 1
+   },
+   {
+    "source": 6,
+    "target": 10,
+    "attributes": 5
+   },
+   {
+    "source": 7,
+    "target": 8,
+    "attributes": 5
+   },
+   {
+    "source": 8,
+    "target": 13,
+    "attributes": 2
+   },
+   {
+    "source": 9,
+    "target": 11,
+    "attributes": 3
+   },
+   {
+    "source": 10,
+    "target": 11,
+    "attributes": 4
+   },
+   {
+    "source": 11,
+    "target": 13,
+    "attributes": 1
+   }
+  ],
+  "params": [],
+  "node_count": 14,
+  "edge_count": 13,
+  "is_directed": false,
+  "is_tree": true,
+  "is_connected": true,
+  "components": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  ],
+  "graph_name": "Tree Structure Graph",
+  "average_degree": 1.8571428571428572,
+  "diameter": 8,
+  "radius": 4,
+  "adjacency_matrix": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    3
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    4,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    3,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "graph_description": "This is a undirected graph with the following edges:\nFrom node 0 to node 8, distance is 1\nFrom node 1 to node 12, distance is 3\nFrom node 1 to node 13, distance is 3\nFrom node 2 to node 7, distance is 3\nFrom node 3 to node 4, distance is 2\nFrom node 4 to node 6, distance is 3\nFrom node 5 to node 12, distance is 1\nFrom node 6 to node 10, distance is 5\nFrom node 7 to node 8, distance is 5\nFrom node 8 to node 13, distance is 2\nFrom node 9 to node 11, distance is 3\nFrom node 10 to node 11, distance is 4\nFrom node 11 to node 13, distance is 1",
+  "random_graph_description": "This is a undirected graph with the following edges:\nFrom node 3 to node 4, distance is 2\nFrom node 6 to node 10, distance is 5\nFrom node 8 to node 13, distance is 2\nFrom node 1 to node 13, distance is 3\nFrom node 2 to node 7, distance is 3\nFrom node 1 to node 12, distance is 3\nFrom node 0 to node 8, distance is 1\nFrom node 11 to node 13, distance is 1\nFrom node 10 to node 11, distance is 4\nFrom node 7 to node 8, distance is 5\nFrom node 4 to node 6, distance is 3\nFrom node 9 to node 11, distance is 3\nFrom node 5 to node 12, distance is 1",
+  "hamiltonian_cycle": null,
+  "euler_cycle": false,
+  "QA": {
+   "structure_qa": [
+    {
+     "node_number": {
+      "Q": "How many nodes in this graph?",
+      "A": 14
+     },
+     "average_degree": {
+      "Q": "What's the average degree of this graph?",
+      "A": 1.8571428571428572
+     },
+     "is_connected": {
+      "Q": "Is this graph a connected graph?",
+      "A": "Yes"
+     },
+     "similarity": {
+      "Q": "What are the triplets in this graph? ",
+      "A": [
+       [
+        0,
+        8,
+        1
+       ],
+       [
+        1,
+        12,
+        3
+       ],
+       [
+        1,
+        13,
+        3
+       ],
+       [
+        2,
+        7,
+        3
+       ],
+       [
+        3,
+        4,
+        2
+       ],
+       [
+        4,
+        6,
+        3
+       ],
+       [
+        5,
+        12,
+        1
+       ],
+       [
+        6,
+        10,
+        5
+       ],
+       [
+        7,
+        8,
+        5
+       ],
+       [
+        8,
+        13,
+        2
+       ],
+       [
+        9,
+        11,
+        3
+       ],
+       [
+        10,
+        11,
+        4
+       ],
+       [
+        11,
+        13,
+        1
+       ]
+      ]
+     }
+    }
+   ],
+   "specail_qa": {
+    "Q": "A tree is an undirected graph in which any two vertices are connected by exactly one path, and there are no cycles. Based on the following description, determine if the given graph is a tree.",
+    "A": "Yes, it is a tree."
+   }
+  }
+ },
+ {
+  "nodes": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "edges": [
+   {
+    "source": 0,
+    "target": 5,
+    "attributes": 1
+   },
+   {
+    "source": 0,
+    "target": 3,
+    "attributes": 2
+   },
+   {
+    "source": 0,
+    "target": 13,
+    "attributes": 5
+   },
+   {
+    "source": 1,
+    "target": 10,
+    "attributes": 1
+   },
+   {
+    "source": 2,
+    "target": 11,
+    "attributes": 5
+   },
+   {
+    "source": 3,
+    "target": 7,
+    "attributes": 4
+   },
+   {
+    "source": 4,
+    "target": 11,
+    "attributes": 2
+   },
+   {
+    "source": 5,
+    "target": 11,
+    "attributes": 2
+   },
+   {
+    "source": 5,
+    "target": 10,
+    "attributes": 2
+   },
+   {
+    "source": 6,
+    "target": 10,
+    "attributes": 4
+   },
+   {
+    "source": 7,
+    "target": 12,
+    "attributes": 1
+   },
+   {
+    "source": 8,
+    "target": 10,
+    "attributes": 1
+   },
+   {
+    "source": 8,
+    "target": 12,
+    "attributes": 3
+   },
+   {
+    "source": 9,
+    "target": 12,
+    "attributes": 2
+   }
+  ],
+  "params": [],
+  "node_count": 14,
+  "edge_count": 14,
+  "is_directed": false,
+  "is_tree": false,
+  "is_connected": true,
+  "components": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  ],
+  "graph_name": "Tree Structure Graph",
+  "average_degree": 2.0,
+  "diameter": 6,
+  "radius": 3,
+  "adjacency_matrix": [
+   [
+    0,
+    0,
+    0,
+    2,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0
+   ],
+   [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    3,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0,
+    2,
+    4,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    5,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    3,
+    2,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "graph_description": "This is a undirected graph with the following edges:\nFrom node 0 to node 5, distance is 1\nFrom node 0 to node 3, distance is 2\nFrom node 0 to node 13, distance is 5\nFrom node 1 to node 10, distance is 1\nFrom node 2 to node 11, distance is 5\nFrom node 3 to node 7, distance is 4\nFrom node 4 to node 11, distance is 2\nFrom node 5 to node 11, distance is 2\nFrom node 5 to node 10, distance is 2\nFrom node 6 to node 10, distance is 4\nFrom node 7 to node 12, distance is 1\nFrom node 8 to node 10, distance is 1\nFrom node 8 to node 12, distance is 3\nFrom node 9 to node 12, distance is 2",
+  "random_graph_description": "This is a undirected graph with the following edges:\nFrom node 0 to node 13, distance is 5\nFrom node 3 to node 7, distance is 4\nFrom node 6 to node 10, distance is 4\nFrom node 5 to node 11, distance is 2\nFrom node 9 to node 12, distance is 2\nFrom node 5 to node 10, distance is 2\nFrom node 1 to node 10, distance is 1\nFrom node 8 to node 10, distance is 1\nFrom node 0 to node 5, distance is 1\nFrom node 4 to node 11, distance is 2\nFrom node 7 to node 12, distance is 1\nFrom node 0 to node 3, distance is 2\nFrom node 8 to node 12, distance is 3\nFrom node 2 to node 11, distance is 5",
+  "hamiltonian_cycle": null,
+  "euler_cycle": false,
+  "QA": {
+   "structure_qa": [
+    {
+     "node_number": {
+      "Q": "How many nodes in this graph?",
+      "A": 14
+     },
+     "average_degree": {
+      "Q": "What's the average degree of this graph?",
+      "A": 2.0
+     },
+     "is_connected": {
+      "Q": "Is this graph a connected graph?",
+      "A": "Yes"
+     },
+     "similarity": {
+      "Q": "What are the triplets in this graph? ",
+      "A": [
+       [
+        0,
+        5,
+        1
+       ],
+       [
+        0,
+        3,
+        2
+       ],
+       [
+        0,
+        13,
+        5
+       ],
+       [
+        1,
+        10,
+        1
+       ],
+       [
+        2,
+        11,
+        5
+       ],
+       [
+        3,
+        7,
+        4
+       ],
+       [
+        4,
+        11,
+        2
+       ],
+       [
+        5,
+        11,
+        2
+       ],
+       [
+        5,
+        10,
+        2
+       ],
+       [
+        6,
+        10,
+        4
+       ],
+       [
+        7,
+        12,
+        1
+       ],
+       [
+        8,
+        10,
+        1
+       ],
+       [
+        8,
+        12,
+        3
+       ],
+       [
+        9,
+        12,
+        2
+       ]
+      ]
+     }
+    }
+   ],
+   "specail_qa": {
+    "Q": "A tree is an undirected graph in which any two vertices are connected by exactly one path, and there are no cycles. Based on the following description, determine if the given graph is a tree.",
+    "A": "No, it is not a tree."
+   }
+  }
+ },
+ {
+  "nodes": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "edges": [
+   {
+    "source": 0,
+    "target": 8,
+    "attributes": 3
+   },
+   {
+    "source": 0,
+    "target": 12,
+    "attributes": 4
+   },
+   {
+    "source": 1,
+    "target": 7,
+    "attributes": 3
+   },
+   {
+    "source": 1,
+    "target": 4,
+    "attributes": 1
+   },
+   {
+    "source": 2,
+    "target": 5,
+    "attributes": 4
+   },
+   {
+    "source": 3,
+    "target": 4,
+    "attributes": 1
+   },
+   {
+    "source": 4,
+    "target": 12,
+    "attributes": 1
+   },
+   {
+    "source": 4,
+    "target": 6,
+    "attributes": 3
+   },
+   {
+    "source": 5,
+    "target": 12,
+    "attributes": 1
+   },
+   {
+    "source": 6,
+    "target": 11,
+    "attributes": 4
+   },
+   {
+    "source": 6,
+    "target": 9,
+    "attributes": 5
+   },
+   {
+    "source": 9,
+    "target": 13,
+    "attributes": 2
+   },
+   {
+    "source": 10,
+    "target": 12,
+    "attributes": 4
+   }
+  ],
+  "params": [],
+  "node_count": 14,
+  "edge_count": 13,
+  "is_directed": false,
+  "is_tree": true,
+  "is_connected": true,
+  "components": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  ],
+  "graph_name": "Tree Structure Graph",
+  "average_degree": 1.8571428571428572,
+  "diameter": 6,
+  "radius": 3,
+  "adjacency_matrix": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    4,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    4,
+    0,
+    0
+   ],
+   [
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    4,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "graph_description": "This is a undirected graph with the following edges:\nFrom node 0 to node 8, distance is 3\nFrom node 0 to node 12, distance is 4\nFrom node 1 to node 7, distance is 3\nFrom node 1 to node 4, distance is 1\nFrom node 2 to node 5, distance is 4\nFrom node 3 to node 4, distance is 1\nFrom node 4 to node 12, distance is 1\nFrom node 4 to node 6, distance is 3\nFrom node 5 to node 12, distance is 1\nFrom node 6 to node 11, distance is 4\nFrom node 6 to node 9, distance is 5\nFrom node 9 to node 13, distance is 2\nFrom node 10 to node 12, distance is 4",
+  "random_graph_description": "This is a undirected graph with the following edges:\nFrom node 9 to node 13, distance is 2\nFrom node 6 to node 9, distance is 5\nFrom node 2 to node 5, distance is 4\nFrom node 4 to node 12, distance is 1\nFrom node 5 to node 12, distance is 1\nFrom node 0 to node 12, distance is 4\nFrom node 10 to node 12, distance is 4\nFrom node 0 to node 8, distance is 3\nFrom node 3 to node 4, distance is 1\nFrom node 1 to node 4, distance is 1\nFrom node 6 to node 11, distance is 4\nFrom node 4 to node 6, distance is 3\nFrom node 1 to node 7, distance is 3",
+  "hamiltonian_cycle": null,
+  "euler_cycle": false,
+  "QA": {
+   "structure_qa": [
+    {
+     "node_number": {
+      "Q": "How many nodes in this graph?",
+      "A": 14
+     },
+     "average_degree": {
+      "Q": "What's the average degree of this graph?",
+      "A": 1.8571428571428572
+     },
+     "is_connected": {
+      "Q": "Is this graph a connected graph?",
+      "A": "Yes"
+     },
+     "similarity": {
+      "Q": "What are the triplets in this graph? ",
+      "A": [
+       [
+        0,
+        8,
+        3
+       ],
+       [
+        0,
+        12,
+        4
+       ],
+       [
+        1,
+        7,
+        3
+       ],
+       [
+        1,
+        4,
+        1
+       ],
+       [
+        2,
+        5,
+        4
+       ],
+       [
+        3,
+        4,
+        1
+       ],
+       [
+        4,
+        12,
+        1
+       ],
+       [
+        4,
+        6,
+        3
+       ],
+       [
+        5,
+        12,
+        1
+       ],
+       [
+        6,
+        11,
+        4
+       ],
+       [
+        6,
+        9,
+        5
+       ],
+       [
+        9,
+        13,
+        2
+       ],
+       [
+        10,
+        12,
+        4
+       ]
+      ]
+     }
+    }
+   ],
+   "specail_qa": {
+    "Q": "A tree is an undirected graph in which any two vertices are connected by exactly one path, and there are no cycles. Based on the following description, determine if the given graph is a tree.",
+    "A": "Yes, it is a tree."
+   }
+  }
+ },
+ {
+  "nodes": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "edges": [
+   {
+    "source": 0,
+    "target": 10,
+    "attributes": 4
+   },
+   {
+    "source": 0,
+    "target": 12,
+    "attributes": 5
+   },
+   {
+    "source": 0,
+    "target": 11,
+    "attributes": 1
+   },
+   {
+    "source": 1,
+    "target": 4,
+    "attributes": 4
+   },
+   {
+    "source": 2,
+    "target": 12,
+    "attributes": 4
+   },
+   {
+    "source": 3,
+    "target": 6,
+    "attributes": 2
+   },
+   {
+    "source": 4,
+    "target": 8,
+    "attributes": 1
+   },
+   {
+    "source": 5,
+    "target": 7,
+    "attributes": 1
+   },
+   {
+    "source": 5,
+    "target": 6,
+    "attributes": 1
+   },
+   {
+    "source": 6,
+    "target": 9,
+    "attributes": 4
+   },
+   {
+    "source": 6,
+    "target": 13,
+    "attributes": 1
+   },
+   {
+    "source": 8,
+    "target": 13,
+    "attributes": 3
+   },
+   {
+    "source": 9,
+    "target": 11,
+    "attributes": 2
+   }
+  ],
+  "params": [],
+  "node_count": 14,
+  "edge_count": 13,
+  "is_directed": false,
+  "is_tree": true,
+  "is_connected": true,
+  "components": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  ],
+  "graph_name": "Tree Structure Graph",
+  "average_degree": 1.8571428571428572,
+  "diameter": 9,
+  "radius": 5,
+  "adjacency_matrix": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    1,
+    5,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    2,
+    0,
+    1,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+   ],
+   [
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    5,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "graph_description": "This is a undirected graph with the following edges:\nFrom node 0 to node 10, distance is 4\nFrom node 0 to node 12, distance is 5\nFrom node 0 to node 11, distance is 1\nFrom node 1 to node 4, distance is 4\nFrom node 2 to node 12, distance is 4\nFrom node 3 to node 6, distance is 2\nFrom node 4 to node 8, distance is 1\nFrom node 5 to node 7, distance is 1\nFrom node 5 to node 6, distance is 1\nFrom node 6 to node 9, distance is 4\nFrom node 6 to node 13, distance is 1\nFrom node 8 to node 13, distance is 3\nFrom node 9 to node 11, distance is 2",
+  "random_graph_description": "This is a undirected graph with the following edges:\nFrom node 1 to node 4, distance is 4\nFrom node 9 to node 11, distance is 2\nFrom node 6 to node 9, distance is 4\nFrom node 3 to node 6, distance is 2\nFrom node 0 to node 11, distance is 1\nFrom node 8 to node 13, distance is 3\nFrom node 0 to node 10, distance is 4\nFrom node 2 to node 12, distance is 4\nFrom node 5 to node 6, distance is 1\nFrom node 5 to node 7, distance is 1\nFrom node 6 to node 13, distance is 1\nFrom node 0 to node 12, distance is 5\nFrom node 4 to node 8, distance is 1",
+  "hamiltonian_cycle": null,
+  "euler_cycle": false,
+  "QA": {
+   "structure_qa": [
+    {
+     "node_number": {
+      "Q": "How many nodes in this graph?",
+      "A": 14
+     },
+     "average_degree": {
+      "Q": "What's the average degree of this graph?",
+      "A": 1.8571428571428572
+     },
+     "is_connected": {
+      "Q": "Is this graph a connected graph?",
+      "A": "Yes"
+     },
+     "similarity": {
+      "Q": "What are the triplets in this graph? ",
+      "A": [
+       [
+        0,
+        10,
+        4
+       ],
+       [
+        0,
+        12,
+        5
+       ],
+       [
+        0,
+        11,
+        1
+       ],
+       [
+        1,
+        4,
+        4
+       ],
+       [
+        2,
+        12,
+        4
+       ],
+       [
+        3,
+        6,
+        2
+       ],
+       [
+        4,
+        8,
+        1
+       ],
+       [
+        5,
+        7,
+        1
+       ],
+       [
+        5,
+        6,
+        1
+       ],
+       [
+        6,
+        9,
+        4
+       ],
+       [
+        6,
+        13,
+        1
+       ],
+       [
+        8,
+        13,
+        3
+       ],
+       [
+        9,
+        11,
+        2
+       ]
+      ]
+     }
+    }
+   ],
+   "specail_qa": {
+    "Q": "A tree is an undirected graph in which any two vertices are connected by exactly one path, and there are no cycles. Based on the following description, determine if the given graph is a tree.",
+    "A": "Yes, it is a tree."
+   }
+  }
+ },
+ {
+  "nodes": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "edges": [
+   {
+    "source": 0,
+    "target": 2,
+    "attributes": 3
+   },
+   {
+    "source": 0,
+    "target": 5,
+    "attributes": 3
+   },
+   {
+    "source": 0,
+    "target": 3,
+    "attributes": 5
+   },
+   {
+    "source": 0,
+    "target": 6,
+    "attributes": 1
+   },
+   {
+    "source": 1,
+    "target": 7,
+    "attributes": 5
+   },
+   {
+    "source": 1,
+    "target": 6,
+    "attributes": 2
+   },
+   {
+    "source": 2,
+    "target": 4,
+    "attributes": 1
+   },
+   {
+    "source": 3,
+    "target": 10,
+    "attributes": 2
+   },
+   {
+    "source": 6,
+    "target": 9,
+    "attributes": 1
+   },
+   {
+    "source": 7,
+    "target": 12,
+    "attributes": 5
+   },
+   {
+    "source": 8,
+    "target": 11,
+    "attributes": 4
+   },
+   {
+    "source": 8,
+    "target": 9,
+    "attributes": 4
+   },
+   {
+    "source": 9,
+    "target": 13,
+    "attributes": 4
+   },
+   {
+    "source": 12,
+    "target": 13,
+    "attributes": 4
+   }
+  ],
+  "params": [],
+  "node_count": 14,
+  "edge_count": 14,
+  "is_directed": false,
+  "is_tree": false,
+  "is_connected": true,
+  "components": [
+   [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ]
+  ],
+  "graph_name": "Tree Structure Graph",
+  "average_degree": 2.0,
+  "diameter": 6,
+  "radius": 3,
+  "adjacency_matrix": [
+   [
+    0,
+    0,
+    3,
+    5,
+    0,
+    3,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    3,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    4,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    4
+   ],
+   [
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    0,
+    4,
+    0
+   ]
+  ],
+  "graph_description": "This is a undirected graph with the following edges:\nFrom node 0 to node 2, distance is 3\nFrom node 0 to node 5, distance is 3\nFrom node 0 to node 3, distance is 5\nFrom node 0 to node 6, distance is 1\nFrom node 1 to node 7, distance is 5\nFrom node 1 to node 6, distance is 2\nFrom node 2 to node 4, distance is 1\nFrom node 3 to node 10, distance is 2\nFrom node 6 to node 9, distance is 1\nFrom node 7 to node 12, distance is 5\nFrom node 8 to node 11, distance is 4\nFrom node 8 to node 9, distance is 4\nFrom node 9 to node 13, distance is 4\nFrom node 12 to node 13, distance is 4",
+  "random_graph_description": "This is a undirected graph with the following edges:\nFrom node 8 to node 9, distance is 4\nFrom node 2 to node 4, distance is 1\nFrom node 0 to node 6, distance is 1\nFrom node 1 to node 6, distance is 2\nFrom node 9 to node 13, distance is 4\nFrom node 1 to node 7, distance is 5\nFrom node 0 to node 2, distance is 3\nFrom node 0 to node 5, distance is 3\nFrom node 7 to node 12, distance is 5\nFrom node 0 to node 3, distance is 5\nFrom node 8 to node 11, distance is 4\nFrom node 12 to node 13, distance is 4\nFrom node 3 to node 10, distance is 2\nFrom node 6 to node 9, distance is 1",
+  "hamiltonian_cycle": null,
+  "euler_cycle": false,
+  "QA": {
+   "structure_qa": [
+    {
+     "node_number": {
+      "Q": "How many nodes in this graph?",
+      "A": 14
+     },
+     "average_degree": {
+      "Q": "What's the average degree of this graph?",
+      "A": 2.0
+     },
+     "is_connected": {
+      "Q": "Is this graph a connected graph?",
+      "A": "Yes"
+     },
+     "similarity": {
+      "Q": "What are the triplets in this graph? ",
+      "A": [
+       [
+        0,
+        2,
+        3
+       ],
+       [
+        0,
+        5,
+        3
+       ],
+       [
+        0,
+        3,
+        5
+       ],
+       [
+        0,
+        6,
+        1
+       ],
+       [
+        1,
+        7,
+        5
+       ],
+       [
+        1,
+        6,
+        2
+       ],
+       [
+        2,
+        4,
+        1
+       ],
+       [
+        3,
+        10,
+        2
+       ],
+       [
+        6,
+        9,
+        1
+       ],
+       [
+        7,
+        12,
+        5
+       ],
+       [
+        8,
+        11,
+        4
+       ],
+       [
+        8,
+        9,
+        4
+       ],
+       [
+        9,
+        13,
+        4
+       ],
+       [
+        12,
+        13,
+        4
+       ]
+      ]
+     }
+    }
+   ],
+   "specail_qa": {
+    "Q": "A tree is an undirected graph in which any two vertices are connected by exactly one path, and there are no cycles. Based on the following description, determine if the given graph is a tree.",
+    "A": "No, it is not a tree."
+   }
+  }
+ }
+]
