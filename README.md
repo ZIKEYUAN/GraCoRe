@@ -1,4 +1,4 @@
-# GraCoRe(COLING 2025)
+# GraCoRe(Published in COLING 2025)
 GraCoRe: Benchmarking Graph Comprehension and Complex Reasoning in Large Language Models
 
 Paper Link: [https://arxiv.org/abs/2407.02936](https://arxiv.org/abs/2407.02936)
