@@ -26,3 +26,10 @@ If you find this repo useful, please cite our paper:
   year={2024}
 }
 ```
+### License
+MIT License
+
+### Contact
+For more information please contact Zike Yuan.
+
+Zike Yuan: `yuanzike@gmail.com`
